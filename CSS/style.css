@@ -6,13 +6,37 @@ body {
 
 
 
+/* Alert */
+
+
+.alert-container .col-xs-12 {
+
+    padding-left: 0;
+
+    padding-right: 0;
+
+}
+
+
+.site-wide-alert {
+
+    color: #544600;
+
+    background-color: #eec802;
+
+    border-color: #eec802;
+
+    padding: 5px 15px;
+
+    margin-bottom: 0;
+
+    border: 1px solid transparent;
+
+    border-radius: 0;
+
+}
+
 /* Containers */
-
-
-
-.container-wrapper {}
-
-
 
 .container-wrapper--red {
 
@@ -50,7 +74,6 @@ body {
     position: relative;
 
 }
-
 
 
 .opaque-overlay {
@@ -108,13 +131,11 @@ code copied into the CSS file*/
 }
 
 
-
 .navbar-default .navbar-collapse {
 
     border-color: transparent;
 
 }
-
 
 
 .navbar-default .navbar-toggle {
@@ -124,7 +145,6 @@ code copied into the CSS file*/
 }
 
 
-
 .navbar-default .navbar-toggle:hover {
 
     background-color: transparent;
@@ -132,13 +152,11 @@ code copied into the CSS file*/
 }
 
 
-
 .navbar-default .navbar-toggle .icon-bar {
 
     background-color: white;
 
 }
-
 
 
 .navbar .navbar-brand {
@@ -150,7 +168,6 @@ code copied into the CSS file*/
 }
 
 
-
 .navbar .navbar-brand:hover {
 
     color: white;
@@ -158,13 +175,11 @@ code copied into the CSS file*/
 }
 
 
-
 .navbar-default .navbar-nav a {
 
     font-weight: bold;
 
 }
-
 
 
 .navbar-default .navbar-nav>.active>a,
@@ -180,7 +195,6 @@ code copied into the CSS file*/
 }
 
 
-
 .navbar-default .navbar-nav>li>a:focus,
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -188,7 +202,6 @@ code copied into the CSS file*/
     color: white;
 
 }
-
 
 
 .navbar-btn {
@@ -206,7 +219,6 @@ code copied into the CSS file*/
 }
 
 
-
 .navbar-btn:hover {
 
     background-color: #df4929; /*slightly darker colour for contrast on button*/
@@ -218,17 +230,13 @@ code copied into the CSS file*/
 }
 
 
-
 /* Jumbotron */
-
-
 
 .jumbotron {
 
     background-color: transparent;
 
 }
-
 
 
 .jumbotron h1 {
@@ -244,7 +252,6 @@ code copied into the CSS file*/
 }
 
 
-
 .jumbotron .lead {
 
     color: #a7a7a7;
@@ -252,7 +259,6 @@ code copied into the CSS file*/
     margin: 25px 0;
 
 }
-
 
 
 .jumbotron small {
@@ -266,10 +272,7 @@ code copied into the CSS file*/
 }
 
 
-
 /* Block dividers */
-
-
 
 .block-divider {
 
@@ -284,13 +287,11 @@ code copied into the CSS file*/
 }
 
 
-
 .block-divider--orange {
 
     background-color: #f05f40;
 
 }
-
 
 
 .block-divider--white {
@@ -300,7 +301,6 @@ code copied into the CSS file*/
 }
 
 
-
 .block-divider--short {
 
     width: 35px;
@@ -308,10 +308,7 @@ code copied into the CSS file*/
 }
 
 
-
 /* Buttons */
-
-
 
 .btn-cta {
 
@@ -324,7 +321,6 @@ code copied into the CSS file*/
 }
 
 
-
 .btn-red {
 
     color: white;
@@ -334,7 +330,6 @@ code copied into the CSS file*/
     border-color: #f05f40;
 
 }
-
 
 
 .btn-red:hover,
@@ -354,43 +349,7 @@ code copied into the CSS file*/
 }
 
 
-
-/* Alert */
-
-
-
-.alert-container .col-xs-12 {
-
-    padding-left: 0;
-
-    padding-right: 0;
-
-}
-
-
-
-.site-wide-alert {
-
-    color: #544600;
-
-    background-color: #eec802;
-
-    border-color: #eec802;
-
-    padding: 5px 15px;
-
-    margin-bottom: 0;
-
-    border: 1px solid transparent;
-
-    border-radius: 0;
-
-}
-
-
-
 /* Page Headers */
-
 
 
 .page-header {
@@ -404,7 +363,6 @@ code copied into the CSS file*/
 }
 
 
-
 .page-header h2 {
 
     margin-top: 0;
@@ -412,17 +370,13 @@ code copied into the CSS file*/
 }
 
 
-
 /* Quotes */
-
-
 
 .quotes .page-header {
 
     margin-bottom: 25px;
 
 }
-
 
 
 blockquote.quote {
@@ -432,10 +386,7 @@ blockquote.quote {
 }
 
 
-
 /* Features */
-
-
 
 .feature {
 
@@ -460,7 +411,6 @@ Glyphicons are not images, but they are fonts*/
     line-height: 45px;
 
 }
-
 
 
 .feature .btn {
