@@ -4,9 +4,7 @@ Welcome!
 
 ***
 
-[Direct link to live project] (https://github.com/Spagettileg/Whiskey-Drop)
-
-[View Here](https://github.com/Spagettileg/Whiskey-Drop) 
+[Live Project](https://github.com/Spagettileg/Whiskey-Drop) 
 
 ***
 
