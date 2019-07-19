@@ -6,6 +6,8 @@ Welcome!
 
 [Direct link to live project] (https://github.com/Spagettileg/Whiskey-Drop)
 
+[View Here] (https://github.com/Spagettileg/Whiskey-Drop) 
+
 ***
 
 #### This project is designed to showcase a front end design built with the following 
