@@ -19,11 +19,6 @@ body {
 
 /* Alert */
 
-.alert-container .col-xs-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .site-wide-alert {
     color: #544600;
     background-color: #eec802;
@@ -210,3 +205,21 @@ Glyphicons are not images, but they are fonts*/
     margin-top: 10px;
     color: #f05f40;
 }
+
+/* Media Queries */
+
+@media (min-width: 375px) and (orientation: portrait) {
+    .callout-container {
+        /* Mobile view in landscape mode */
+        height: 110vh;
+    }
+}
+
+@media (min-width: 667px) and (orientation: landscape) {
+    .callout-container {
+        /* Mobile view in landscape mode */
+        height: 150vh;
+    }
+}
+
+
