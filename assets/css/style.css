@@ -62,7 +62,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 /*Content container allows for increased space via padding around the content
@@ -77,11 +77,26 @@ to give impression of text not being too cramped*/
 specificity issues contained within the original Google Chrome
 code copied into the CSS file*/
 
+#navbarSupportedContent ul li a {
+  /* Navbar text changes from black to orange upon user hovering their cursor */
+  color: #D0D0D0;
+  /* Silver Grey */
+  cursor: pointer;
+}
+
 #navbarSupportedContent ul li a:hover {
   /* Navbar text changes from black to orange upon user hovering their cursor */
   color: #F7BA00;
   /* Yellow */
   cursor: pointer;
+  transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.35s ease-in-out;
+    /*Apple*/
+    transform: scale(1.15);
+    opacity: 0.9;
 }
 
 /* Jumbotron */
@@ -99,6 +114,7 @@ code copied into the CSS file*/
 
 .jumbotron .lead {
     color: #a7a7a7;
+    /* Pencil Grey */
     margin: 25px 0;
 }
 
@@ -106,6 +122,7 @@ code copied into the CSS file*/
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+    /* Silver Gre y*/
 }
 
 /* Block dividers */
