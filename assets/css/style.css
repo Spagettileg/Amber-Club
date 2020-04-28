@@ -13,21 +13,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* Colour Palette */
 
 /* Yellow - #F7BA00 */
 
-/* Alert */
-
-.site-wide-alert {
-    color: #544600;
-    background-color: #eec802;
-    border-color: #eec802;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-}
 
 /* Containers */
 
@@ -99,16 +89,16 @@ code copied into the CSS file*/
 }
 
 .jumbotron .lead {
-    color: #D0D0D0;
-    /* Silver Grey */
+    color: #FFFFFF;
+    /* White */
     margin: 25px 0;
 }
 
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
-    color: #D0D0D0;
-    /* Silver Grey */
+    color: #FFFFFF;
+    /* White */
 }
 
 /* Block dividers */
