@@ -56,15 +56,6 @@ body {
     position: relative;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.15);
-}
-
 /*Content container allows for increased space via padding around the content
 to give impression of text not being too cramped*/
 
