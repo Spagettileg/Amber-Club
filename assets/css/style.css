@@ -113,16 +113,16 @@ code copied into the CSS file*/
 }
 
 .jumbotron .lead {
-    color: #a7a7a7;
-    /* Pencil Grey */
+    color: #D0D0D0;
+    /* Silver Grey */
     margin: 25px 0;
 }
 
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
-    color: #d0d0d0;
-    /* Silver Gre y*/
+    color: #D0D0D0;
+    /* Silver Grey */
 }
 
 /* Block dividers */
@@ -148,25 +148,25 @@ code copied into the CSS file*/
 
 /* Buttons */
 
-.btn-cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
+.btn-register {
+    /*Buttons used for checking availability & ordering concert tickets*/
+    background-color: #FFFFFF;
+    /*White*/
+    border: 0.1rem solid #F05F40;
+    /*Orange*/
+    color: #F05F40;
+    font-weight: 600;
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
 }
 
-.btn-red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
-
-.btn-red:hover,
-.btn-red:active,
-.btn-red:focus,
-.btn-red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
+.btn-register:hover {
+    background-color: #F05F40;
+    /*Orange*/
+    border: 0.1rem solid #F05F40;
+    color: #FAFAFA;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Page Headers */
