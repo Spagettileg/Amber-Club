@@ -210,6 +210,9 @@ Glyphicons are not images, but they are fonts*/
         /* Mobile view in landscape mode */
         height: 150vh;
     }
+    .jumbotron .lead {
+        margin-bottom: 0;
+    }
 }
 
 
