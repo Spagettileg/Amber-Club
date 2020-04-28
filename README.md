@@ -1,9 +1,9 @@
 # bootstrap | whiskey-drop
 
 ***
-[GitHub Repo](https://github.com/Spagettileg/Whiskey-Drop)
+[Direct link to GitHub Repo](https://github.com/Spagettileg/Whiskey-Drop)
 
-[Live Project](https://spagettileg.github.io/Whiskey-Drop/) 
+[Direct link to Live Project](https://spagettileg.github.io/Whiskey-Drop/) 
 
 ***
 
@@ -12,6 +12,8 @@ This project is designed to showcase a front end design built with the following
  - [HTML](https://html.spec.whatwg.org/multipage/) | [Bootstrap](https://www.bootstrapcdn.com/) | [CSS](https://www.w3.org/Style/CSS/) | [jQuery](https://jquery.com/)
 
 ***
+![]()
+
 Whats not to like about whiskey? This website is built for the whiskey connoisseur who enjoys the finer things in life, like minded consumers give their feedback on premium products and opportunities to purchase whiskey at discounted prices.
 
 The user experience centres upon signing up to an incentive based web design and the user is able to click on link buttons to access more feature information and sign up to promotion. 
