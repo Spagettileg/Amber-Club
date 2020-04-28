@@ -12,7 +12,7 @@ This project is designed to showcase a front end design built with the following
  - [HTML](https://html.spec.whatwg.org/multipage/) | [Bootstrap](https://www.bootstrapcdn.com/) | [CSS](https://www.w3.org/Style/CSS/) | [jQuery](https://jquery.com/)
 
 ***
-![](assets/img/whiskey-image.png){:width="800px"}.
+![](assets/img/whiskey-image.png)
 
 Whats not to like about whiskey? This website is built for the whiskey connoisseur who enjoys the finer things in life, like minded consumers give their feedback on premium products and opportunities to purchase whiskey at discounted prices.
 
