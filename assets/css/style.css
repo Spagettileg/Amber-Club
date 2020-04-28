@@ -200,7 +200,7 @@ Glyphicons are not images, but they are fonts*/
 
 @media (min-width: 375px) and (orientation: portrait) {
     .callout-container {
-        /* Mobile view in landscape mode */
+        /* Mobile view in portrait mode */
         height: 110vh;
     }
 }
@@ -217,15 +217,21 @@ Glyphicons are not images, but they are fonts*/
 
 @media (min-width: 768px) and (orientation: portrait) {
     .callout-container {
-        /* Mobile view in landscape mode */
+        /* Tablet view in portrait mode */
         height: 100vh;
     }
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
     .callout-container {
-        /* Mobile view in landscape mode */
+        /* Tablet view in landscape mode */
         height: 100vh;
     }
 }
 
+@media (min-width: 700px) and (orientation: portrait) {
+    .callout-container {
+        /* Tablet view in landscape mode */
+        height: 100vh;
+    }
+}
