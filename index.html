@@ -10,7 +10,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
     <!-  Bootstrap CSS ->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- Font awesome -->      
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
     <!-- Hover CSS -->
@@ -62,7 +62,6 @@
     </nav>
 
     <div class="container-fluid callout-container">
-        <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-xs-12">
                 <section class="Callout jumbotron text-center">
@@ -70,7 +69,9 @@
                     <hr class="block-divider--white">
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s>£19.99</s> <span class="visible-xs"><br></span> <strong><mark>The 1st one is free!</mark></Strong></p>
                     <!-- large button added for service sign up -->
-                    <p><button class="btn btn-lg btn-cta btn-red" data-toggle='modal' data-target='#SignUpModal'>Sign up!</button></p>
+                    <div class="pt-2 pb-2 text-center">
+                    <button class="btn btn-register" data-toggle='modal' data-target='#SignUpModal'>Register</button>
+                    </div>
                     <!-- Legal text added below -->
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                 </section>
@@ -224,15 +225,13 @@
             </div>
         </section>
     </div>
-
-
-
+    <!-- Register Modal to join Whiskey-Drop mailing list -->
     <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">Sign up for Whiskey Drop!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -249,7 +248,7 @@
                             <label for="PasswordRepeat">Repeat Password</label>
                             <input type="password" class="form-control" id="PasswordRepeat" placeholder="Repeat Your Password">
                         </div>
-                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                        <button type="submit" class="btn btn-success">Register</button>
                     </form>
                 </div>
             </div>
@@ -257,9 +256,9 @@
     </div>
 
     <!-- JS Library for Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <!-- Personal JS -->
     <script src="assets/js/main.js"></script>
