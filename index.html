@@ -20,44 +20,48 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid alert-container hidden-xs">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="site-wide-alert alert alert-warning">
-                        <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
-                    </div>
+    <div class="container-fluid alert-container hidden-xs">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="site-wide-alert alert alert-warning">
+                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="/" class="navbar-brand">
-                Whiskey Drop
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark fixed-top">
+        <a class="navbar-brand px-1 mr-md-1" href="index.html">
+            <img src="assets/img/whiskey-logo1.png" alt="Whiskey Logo">
             </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="">About</a></li>
-                <li class="visible-xs"><a href="">Sign In</a></li>
-            </ul>
 
-            <div class="navbar-header navbar-right hidden-xs">
-                <a href="/Login" class="btn btn-default navbar-btn">Sign Up</a>
-                <p class="navbar-text"><i>Great Whiskey Delivered to Your Door</i></p>
-            </div>
+        <!-- Navbar collapses in a mobile view. Full navbar restored in both tablet & desktop views -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <!-- User options include Home, About, Gallery, Sign In & Register -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
-    <div class="container callout-container">
+    <div class="container-fluid callout-container">
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-xs-12">
