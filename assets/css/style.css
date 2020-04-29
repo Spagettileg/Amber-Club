@@ -158,6 +158,7 @@ code copied into the CSS file*/
     /*White*/
     border: 0.1rem solid #F05F40;
     /*Orange*/
+    border-radius: 0.5rem;
     color: #F05F40;
     font-weight: 600;
     cursor: pointer;
@@ -165,10 +166,13 @@ code copied into the CSS file*/
 }
 
 .btn-register:hover {
-    background-color: #F05F40;
-    /*Orange*/
-    border: 0.1rem solid #F05F40;
-    color: #FAFAFA;
+    background-color: #343A40;
+    /*Charcoal Grey*/
+    border: 0.1rem solid #343A40;
+    /*Charcoal Grey*/
+    border-radius: 0.5rem;
+    color: #F7BA00;
+    /*Yellow*/
     font-weight: 600;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.35s ease-in-out;
@@ -198,6 +202,7 @@ code copied into the CSS file*/
     border: 0.1rem solid #343A40;
     border-radius: 0.5rem;
     color: #F7BA00;
+    /*Yellow*/
     font-weight: 600;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.35s ease-in-out;
