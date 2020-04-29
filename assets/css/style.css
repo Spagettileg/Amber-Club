@@ -17,6 +17,9 @@ body {
 /* Colour Palette */
 
 /* Yellow - #F7BA00 */
+/* Orange - #F05F40 */
+/* Charcoal Grey - #343A40 */
+/* White - #FFFFFF */
 
 
 /* Containers */
@@ -150,7 +153,7 @@ code copied into the CSS file*/
 /* Buttons */
 
 .btn-register {
-    /*Buttons used for checking availability & ordering concert tickets*/
+    /*Button used for signing upto Whiskey-Drop club*/
     background-color: #FFFFFF;
     /*White*/
     border: 0.1rem solid #F05F40;
@@ -176,6 +179,35 @@ code copied into the CSS file*/
     /*Apple*/
 }
 
+.btn-read {
+    /*Buttons used for accessing modal pop up window for extra user information*/
+    background-color: #FFFFFF;
+    /*White*/
+    border: 0.1rem solid #343A40;
+    /*Charcoal Grey*/
+    border-radius: 0.5rem;
+    color: #343A40;
+    font-weight: 600;
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+}
+
+.btn-read:hover {
+    background-color: #343A40;
+    /*Charcoal Grey*/
+    border: 0.1rem solid #343A40;
+    border-radius: 0.5rem;
+    color: #F7BA00;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.35s ease-in-out;
+    /*Apple*/
+}
+
 /* Features */
 
 .feature .glyphicon {
@@ -183,16 +215,6 @@ code copied into the CSS file*/
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
-}
-
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
 }
 
 /* Images */
