@@ -178,16 +178,6 @@ code copied into the CSS file*/
 
 /* Features */
 
-.feature {
-    text-align: center;
-    margin-bottom: 40px;
-    /*creates further space in features categories*/
-}
-
-/*Creating a Block display allows the font (not icon) to move to a new row &
-sit at the top of the text. The font can then be re-sized
-Glyphicons are not images, but they are fonts*/
-
 .feature .glyphicon {
     display: block;
     margin-bottom: 20px;
