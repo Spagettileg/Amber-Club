@@ -128,50 +128,48 @@
             </div>
         </div>
     </div>
-    
-    
-    
-    
+    <!-- Features of the Whiskey-Drop website -->
     <div class="container-wrapper--red">
-        <div class="container features-container content-container">
-
-            <section class="Features">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="page-header">
-                            <h2 class="text-uppercase">Features:</h2>
-                            <hr class="block-divider--white">
+        <div class="container-fluid">
+            <div class="pt-3 text-center">
+                <h2 class="text-uppercase">Features:</h2> 
+            </div>
+            <hr class="block-divider--white">
+            <div class="row">
+                <!-- Feature one links direct to a modal view when user clicks 'Read More' button -->
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="feature .glyphicon feature .btn">
+                        <h3><span class="glyphicon glyphicon-gift hidden-xs"></span>Feature 1 <span class="label label-success">New!</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aliquid, alias blanditiis excepturi corrupti beatae consectetur.</p>
+                        <!-- small link button added to help navigate to modal page -->
+                        <div class="pt-2 pb-2 text-center">
+                        <button class="btn btn-register" data-toggle='modal' data-target='#ViewModal'>Read More...</button>
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="feature .glyphicon feature .btn">
-                            <h3><span class="glyphicon glyphicon-gift hidden-xs"></span>Feature 1 <span class="label label-success">New!</span></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aliquid, alias blanditiis excepturi corrupti beatae consectetur. Quasi, distinctio voluptatibus ad.</p>
-                            <!-- small link button added to help navigate to another web page -->
-                            <p><a class="btn btn-sm btn-default" href="">Read More...</a></p>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 col-md-6 col-lg-4">
-                        <div class="feature .glyphicon feature .btn">
-                            <h3><span class="glyphicon glyphicon-gift hidden-xs"></span>Feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium porro ad non recusandae quas ab delectus voluptatum suscipit, sit harum?</p>
-                            <p><a class="btn btn-sm btn-default" href="">Read More...</a></p>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-12 hidden-md col-lg-4">
-                        <div class="feature .glyphicon feature .btn">
-                            <h3><span class="glyphicon glyphicon-gift hidden-xs"></span>Feature 3</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sit quisquam nam molestiae cumque architecto, distinctio tempore dicta deserunt mollitia.</p>
-                            <p><a class="btn btn-sm btn-default" href="">Read More...</a></p>
+                <!-- Feature two links direct to a modal view when user clicks 'Read More' button -->
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="feature .glyphicon feature .btn">
+                        <h3><span class="glyphicon glyphicon-gift hidden-xs"></span>Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium porro ad non recusandae quas ab delectus voluptatum suscipit, sit harum?</p>
+                        <!-- small link button added to help navigate to modal page -->
+                        <div class="pt-2 pb-2 text-center">
+                        <button class="btn btn-register" data-toggle='modal' data-target='#ViewModal'>Read More...</button>
                         </div>
                     </div>
                 </div>
-            </section>
+                <!-- Feature three links direct to a modal view when user clicks 'Read More' button -->
+                <div class="col-xs-12 hidden-md col-lg-4">
+                    <div class="feature .glyphicon feature .btn">
+                        <h3><span class="glyphicon glyphicon-gift hidden-xs"></span>Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sit quisquam nam molestiae cumque architecto, distinctio tempore dicta deserunt mollitia.</p>
+                        <!-- small link button added to help navigate to modal page -->
+                        <div class="pt-2 pb-2 text-center">
+                        <button class="btn btn-register" data-toggle='modal' data-target='#ViewModal'>Read More...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -245,6 +243,22 @@
                         </div>
                         <button type="submit" class="btn btn-success">Register</button>
                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Feature one Modal (View, Shop & Connect)-->
+    <div class="modal fade" id="ViewModal" tabindex="-1" role="dialog" aria-labelledby="myViewModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myViewModalLabel">Sample Gallery</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body"><!-- *****ADD NEW IMAGE***** -->
+                    <img class="img-responsive" style="margin:0 auto;" src="assets/img/customer9.png" alt="whiskey-collection">
+                    <button type="submit" class="btn btn-success">Register</button>
                 </div>
             </div>
         </div>
