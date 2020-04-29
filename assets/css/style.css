@@ -41,12 +41,35 @@ body {
     position: relative;
 }
 
-/*Content container allows for increased space via padding around the content
-to give impression of text not being too cramped*/
+.all-quotes {
+    /* Required to manage the centering of all quotes on all devices */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+.quote-container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 1rem;
+  height: 14.0625rem;
+}
+
+.quote-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.quote-container img {
+  float: left;
+  margin-right: 0.625rem;
+  border-radius: 50%;
+}
+
+.quote-container span {
+  font-size: 1.25rem;
 }
 
 /* Navbar - Classes have been expanded upon to help override the
@@ -151,28 +174,6 @@ code copied into the CSS file*/
     /*Apple*/
 }
 
-/* Page Headers */
-
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
-/* Quotes */
-
-.quotes .page-header {
-    margin-bottom: 25px;
-}
-
-blockquote.quote {
-    border-left: 0;
-}
-
 /* Features */
 
 .feature {
@@ -202,7 +203,20 @@ Glyphicons are not images, but they are fonts*/
     color: #f05f40;
 }
 
+/* Images */
+
 /* Media Queries */
+
+@media (max-width: 500px) {
+  .quote-container {
+      text-align: center;
+  }
+  .quote-container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
 
 @media (min-width: 375px) and (orientation: portrait) {
     .callout-container {
