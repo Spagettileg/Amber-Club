@@ -71,8 +71,8 @@ code copied into the CSS file*/
     /*Windows*/
     -webkit-transition: all 0.35s ease-in-out;
     /*Apple*/
-    transform: scale(1.15);
     opacity: 0.9;
+    font-weight: 400;
 }
 
 /* Jumbotron */
@@ -202,9 +202,6 @@ Glyphicons are not images, but they are fonts*/
     .callout-container {
         /* Mobile view in portrait mode */
         height: 110vh;
-    }
-    #navbarSupportedContent ul li a:hover {
-        transform: scale(1.00);
     }
 }
 
