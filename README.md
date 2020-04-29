@@ -120,4 +120,7 @@ The user experience centres upon signing up to an incentive based web design and
 
 ### Media
 
+- [Barrel](https://hipwallpaper.com/barrel-backgrounds/) wallpaper image that provides the backdrop to `gallery.html` page
+- [Customer](https://pixabay.com/images/search/people/) images that support the customer quotes featuring in `index.html`page
+
 ### Acknowledgements
