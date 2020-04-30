@@ -293,6 +293,26 @@ code copied into the CSS file*/
     /* White */
 }
 
+/* Monthly Favourites */
+
+.dot {
+  /* Dot is a scale of whiskey product preference that appears on index.html page */    
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: #205e6b;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.empty-dot {
+  /* Empty Dot is an opportunity to improve customer ratings on index.html page */    
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 2px solid #205e6b;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 /* Footer */
 
 /* Media Queries */
