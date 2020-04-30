@@ -171,51 +171,80 @@
             </div>
         </div>
     </div>
-
-    <div class="container monthlyfavourites-container content-container">
-
-        <section class="MonthlyFavourites">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="page-header quotes .page-header">
-                        <h2 class="text-uppercase">Monthly favourites:</h2>
-                        <hr class="block-divider">
-                    </div>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Origin</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            <tr>
-                                <td>Whiskey 1</td>
-                                <td>Ireland</td>
-                            </tr>
-                            <tr>
-                                <td>Whiskey 2</td>
-                                <td>Scotland</td>
-                            </tr>
-                            <tr>
-                                <td>Whiskey 3</td>
-                                <td>USA</td>
-                            </tr>
-                            <tr>
-                                <td>Whiskey 4</td>
-                                <td>Japan</td>
-                            </tr>
-                            <tr>
-                                <td>Whiskey 5</td>
-                                <td>China</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </div>
-            </div>
-        </section>
+    <!-- Monthly favourites as voted for by Whiskey-Drop customers -->
+    <div class="pt-3 container-fluid">
+        <div class="pt-3 text-center">
+            <h2 class="text-uppercase">Monthly Favourites:</h2> 
+        </div>
+        <hr class="block-divider">
+        <div class="row text-center">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Origin</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Whiskey 1</td>
+                        <td>Ireland</td>
+                        <td>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td>Whiskey 2</td>
+                        <td>Scotland</td>
+                        <td>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="empty-dot"></span>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td>Whiskey 3</td>
+                        <td>USA</td>
+                        <td>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="empty-dot"></span>
+                            <span class="empty-dot"></span>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td>Whiskey 4</td>
+                        <td>Japan</td>
+                        <td>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="empty-dot"></span>
+                            <span class="empty-dot"></span>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td>Whiskey 5</td>
+                        <td>China</td>
+                        <td>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="empty-dot"></span>
+                            <span class="empty-dot"></span>
+                            <span class="empty-dot"></span>
+                          </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <!-- Register Modal to join Whiskey-Drop mailing list -->
     <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
