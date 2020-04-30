@@ -13,6 +13,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+ul {
+    /* removes bullet points from unordered list */
+    list-style-type: none;
+}
 
 /* Colour Palette */
 
@@ -224,19 +228,6 @@ code copied into the CSS file*/
 
 /* Images */
 
-/* Media Queries */
-
-@media (max-width: 500px) {
-  .quote-container {
-      text-align: center;
-  }
-  .quote-container img {
-      margin: auto;
-      float: none;
-      display: block;
-  }
-}
-
 /* Modals */
 
 .modal-header,
@@ -253,7 +244,65 @@ code copied into the CSS file*/
     background-color: #343A40;
 }
 
-/* Media Queris */
+/* Social Media */
+
+.social-links {
+    padding-bottom: 0.9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links li a i {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.75rem 0;
+    border-radius: 50%;
+    /*Enables creation of circle where width & height of same value*/
+    font-size: 0.8125rem;
+    /*Enables icon to sit within border*/
+    line-height: 0.4375rem;
+    text-align: center;
+    color: #fafafa;
+    /*off-white*/
+    background: #8f8f8f;
+    /*pale grey*/
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.35s ease-in-out;
+    /*Apple*/
+}
+
+.social-links li a i:hover {
+    background: #F7BA00;
+    /*Yellow*/
+    color: #343A40;
+    /* Charcoal Grey */
+    transform: scale(1.15);
+    opacity: 0.9;
+}
+
+.social {
+    color: #FFFFFF;
+    /* White */
+}
+
+/* Footer */
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+  .quote-container {
+      text-align: center;
+  }
+  .quote-container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
 
 @media (min-width: 375px) and (orientation: portrait) {
     .callout-container {
