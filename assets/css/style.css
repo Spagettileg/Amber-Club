@@ -317,6 +317,30 @@ code copied into the CSS file*/
 
 /* Footer */
 
+#footer {
+    background-color: #343A40;
+    /*Charcoal Grey*/
+    border-color: #343A40;
+    /*Charcoal Grey*/
+}
+
+.footer-text li a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    /*White*/
+}
+
+.lower-footer {
+    color: #FFFFFF;
+    /*White*/
+}
+
+.footer-text li a:hover {
+    color: #F7BA00;
+    /* Yellow */
+}
+
 /* Media Queries */
 
 @media (max-width: 500px) {
