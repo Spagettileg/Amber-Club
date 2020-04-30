@@ -219,11 +219,11 @@ code copied into the CSS file*/
 
 /* Features */
 
-.feature .glyphicon {
+.fa-glass-whiskey {
     display: block;
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
 }
 
 /* Images */
