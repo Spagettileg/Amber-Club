@@ -237,6 +237,24 @@ code copied into the CSS file*/
   }
 }
 
+/* Modals */
+
+.modal-header,
+.whiskey-words,
+.close {
+    color: #FFFFFF;
+}
+
+.close:hover {
+    color: #F7BA00;
+}
+
+.modal-content {
+    background-color: #343A40;
+}
+
+/* Media Queris */
+
 @media (min-width: 375px) and (orientation: portrait) {
     .callout-container {
         /* Mobile view in portrait mode */
