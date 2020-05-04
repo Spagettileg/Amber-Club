@@ -137,6 +137,16 @@ body, html {
     padding: 3.125rem 5rem;
 }
 
+.about-bottle {
+    /* write up for about.html page containers */
+    color: #FFFFFF;
+    /* White */
+    background-color: #F05F40;
+    /* Orange */
+    text-align: justify;
+    padding: 3.125rem 5rem;
+}
+
 /* Navbar - Classes have been expanded upon to help override the
 specificity issues contained within the original Google Chrome
 code copied into the CSS file*/
