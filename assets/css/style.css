@@ -114,8 +114,23 @@ body, html {
   background-size: cover;
 }
 
+.bottle {
+  /* The image used in about.html page */
+   background-image: url(../img/bottles.jpg);
+
+  /* Full height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .about-start,
-.about-glass {
+.about-drink,
+.about-bottles {
   position: relative; /* Position the background text */
   top: 50%;
   left: 0;
@@ -137,12 +152,22 @@ body, html {
     padding: 3.125rem 5rem;
 }
 
-.about-bottle {
+.about-glass {
     /* write up for about.html page containers */
     color: #FFFFFF;
     /* White */
     background-color: #F05F40;
     /* Orange */
+    text-align: justify;
+    padding: 3.125rem 5rem;
+}
+
+.about-bottle {
+    /* write up for about.html page containers */
+    color: #D0D0D0;
+    /* White */
+    background-color: #343A40;
+    /* Charcoal Grey */
     text-align: justify;
     padding: 3.125rem 5rem;
 }
