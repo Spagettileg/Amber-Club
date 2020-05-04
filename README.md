@@ -123,5 +123,6 @@ The user experience centres upon signing up to an incentive based web design and
 - [Barrel](https://hipwallpaper.com/barrel-backgrounds/) wallpaper image that provides the backdrop to `gallery.html` page
 - [Customer](https://pixabay.com/images/search/people/) images that support the customer quotes featuring in `index.html`page
 - [People connect images](https://www.thedigitaltransformationpeople.com/channels/customer-engagement/connecting-on-social/) to support club members interaction in `index.html` page
+- [Whiskey Wallpapers](https://wallpapercave.com/whiskey-wallpapers) featuring in about.html page
 
 ### Acknowledgements
