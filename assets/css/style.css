@@ -91,7 +91,7 @@ body, html {
    background-image: url(../img/barrels.jpg);
 
   /* Full height */
-  height: 500px;
+  height: 600px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -100,11 +100,25 @@ body, html {
   background-size: cover;
 }
 
-.about-start {
-  position: absolute; /* Position the background text */
+.glass {
+  /* The image used in about.html page */
+   background-image: url(../img/glass.jpg);
+
+  /* Full height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-start,
+.about-glass {
+  position: relative; /* Position the background text */
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 0;
   text-align: center;
   font-size: 3rem;
   background: rgb(0, 0, 0); /* Fallback color */
