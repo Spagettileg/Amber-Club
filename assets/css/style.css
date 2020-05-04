@@ -23,6 +23,7 @@ ul {
 /* Yellow - #F7BA00 */
 /* Orange - #F05F40 */
 /* Charcoal Grey - #343A40 */
+/* Pencil Grey - #BFBFBF */
 /* White - #FFFFFF */
 
 
@@ -93,7 +94,7 @@ body, html {
   height: 500px;
 
   /* Create the parallax scrolling effect */
-  background-attachment: scroll; 
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,7 +116,8 @@ body, html {
 
 .about-info {
     /* write up for about.html page containers */
-    color: #D0D0D0;
+    color: #BFBFBF;
+    /* Pencil Grey */
     background-color: #FFFFFF;
     text-align: justify;
     padding: 3.125rem 5rem;
