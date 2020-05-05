@@ -185,6 +185,85 @@ body, html {
     padding-bottom: 6rem;
 }
 
+/* gallery.html */
+
+#gallery {
+   /* The image used in about.html page */
+   background-image: url(../img/gallery-background.jpg); 
+   height: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row-gallery {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row-gallery,
+.row-gallery > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row-gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn-view {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-view:hover {
+  background-color: #ddd;
+}
+
+.btn-view.active {
+  background-color: #666;
+  color: white;
+}
+
 /* Navbar - Classes have been expanded upon to help override the
 specificity issues contained within the original Google Chrome
 code copied into the CSS file*/
