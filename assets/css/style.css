@@ -18,6 +18,13 @@ ul {
     list-style-type: none;
 }
 
+.about p::first-letter {
+    /*About story 1st letter of each paragraph formatted to stand out to user*/
+    font-size: 2rem;
+    font-style: oblique;
+    color: #F7BA00;
+}
+
 /* Colour Palette */
 
 /* Yellow - #F7BA00 */
@@ -150,6 +157,8 @@ body, html {
     background-color: #FFFFFF;
     text-align: justify;
     padding: 3.125rem 5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .about-glass {
@@ -160,6 +169,8 @@ body, html {
     /* Orange */
     text-align: justify;
     padding: 3.125rem 5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .about-bottle {
@@ -170,6 +181,8 @@ body, html {
     /* Charcoal Grey */
     text-align: justify;
     padding: 3.125rem 5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 /* Navbar - Classes have been expanded upon to help override the
