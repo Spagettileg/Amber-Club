@@ -53,6 +53,49 @@
             </ul>
         </div>
     </nav>
+    <div class="main">
+
+        <h1>MYLOGO.COM</h1>
+        <hr>
+        
+        <h2>PORTFOLIO</h2>
+        
+        <div id="myBtnViewContainer">
+          <button class="btn-view active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn-view" onclick="filterSelection('nature')"> Nature</button>
+          <button class="btn-view" onclick="filterSelection('cars')"> Cars</button>
+          <button class="btn-view" onclick="filterSelection('people')"> People</button>
+        </div>
+        
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="column nature">
+            <div class="content">
+              <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+              <h4>Mountains</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column nature">
+            <div class="content">
+            <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+              <h4>Lights</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+          <div class="column nature">
+            <div class="content">
+            <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+              <h4>Forest</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+        <!-- END GRID -->
+        </div>
+
+    <!-- END MAIN -->
+    </div>
+    
     
     <!-- Footer including links to trading, social media & helpful site links too -->
     <footer id="footer" class="container-fluid">
@@ -104,6 +147,52 @@
         </div>
     </div>
 </footer>
+
+    <script>
+        filterSelection("all");
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            wDropRemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) wDropAddClass(x[i], "show");
+          }
+        }
+        
+        function wDropAddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        
+        function wDropRemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        
+        
+        // Add active class to the current button (highlight it)
+        var btnViewContainer = document.getElementById("myBtnViewContainer");
+        var btns = btnViewContainer.getElementsByClassName("btn-view");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+    </script>
 
     <!-- JS Library for Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
