@@ -124,5 +124,6 @@ The user experience centres upon signing up to an incentive based web design and
 - [Customer](https://pixabay.com/images/search/people/) images that support the customer quotes featuring in `index.html`page
 - [People connect images](https://www.thedigitaltransformationpeople.com/channels/customer-engagement/connecting-on-social/) to support club members interaction in `index.html` page
 - [Whiskey Wallpapers](https://wallpapercave.com/whiskey-wallpapers) featuring in about.html page
+- [Whiskey products](https://www.thewhiskyexchange.com/) sourced from The Whiskey Exchange and feature in gallery.html page 
 
 ### Acknowledgements
