@@ -300,6 +300,11 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.text p b {
+    color: #F7BA00;
+    /* Yellow */
+}
+
 .taste-notes {
     /* Tasting notes viewed on rear side of product image. Sub-headers highlighted in yellow */
     color: #F7BA00;
