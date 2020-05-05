@@ -18,6 +18,11 @@ ul {
     list-style-type: none;
 }
 
+h5 {
+    text-align: center;
+    color: #F7BA00;
+}
+
 .about p::first-letter {
     /*About story 1st letter of each paragraph formatted to stand out to user*/
     font-size: 2rem;
@@ -212,43 +217,25 @@ h1 {
   word-break: break-all;
 }
 
-.row-gallery {
-  margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row-gallery,
-.row-gallery > .column {
-  padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
 .column {
+    /* Create three equal columns that floats next to each other */
   float: left;
   width: 100%;
   display: none; /* Hide all elements by default */
 }
 
-/* Clear floats after rows */ 
-.row-gallery:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
 .content {
   background-color: white;
   padding: 10px;
 }
 
-/* The "show" class is added to the filtered elements */
 .show {
+    /* The "show" class is added to the filtered elements */
   display: block;
 }
 
-/* Style the buttons */
 .btn-view {
+    /* Style the buttons */
   border: none;
   outline: none;
   padding: 12px 16px;
@@ -263,6 +250,59 @@ h1 {
 .btn-view.active {
   background-color: #666;
   color: white;
+}
+
+.overlay {
+    /* Formatting the rear-side of each gallery image with text in gallery.html */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0.75rem;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    -o-transition: .5s ease;
+    /*opera*/
+    -ms-transition: .5s ease;
+    /*IE*/
+    -moz-transition: .5s ease;
+    /*windows*/
+    -webkit-transition: .5s ease;
+    /*Safari (apple)*/
+    transition: .5s ease;
+    background-color: #343A40;
+    /* Charcoal Grey */
+    color: #fff;
+}
+
+.container-info:hover .overlay {
+    opacity: 0.85;
+}
+
+.text {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    text-align: justify;
+    top: 50%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    /*opera*/
+    -ms-transform: translate(-50%, -50%);
+    /*IE*/
+    -moz-transform: translate(-50%, -50%);
+    /*windows*/
+    -webkit-transform: translate(-50%, -50%);
+    /*Safari (apple)*/
+    transform: translate(-50%, -50%);
+}
+
+.taste-notes {
+    /* Tasting notes viewed on rear side of product image. Sub-headers highlighted in yellow */
+    color: #F7BA00;
 }
 
 /* Navbar - Classes have been expanded upon to help override the
