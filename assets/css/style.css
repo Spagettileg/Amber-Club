@@ -203,6 +203,7 @@ body, html {
 
 .main {
   max-width: 1000px;
+  padding-top: 6rem;
   margin: auto;
 }
 
@@ -514,12 +515,14 @@ code copied into the CSS file*/
     /*White*/
 }
 
-.lower-footer {
+.lower-footer,
+.drinkaware {
     color: #FFFFFF;
     /*White*/
 }
 
-.footer-text li a:hover {
+.footer-text li a:hover,
+.drinkaware:hover {
     color: #F7BA00;
     /* Yellow */
 }
