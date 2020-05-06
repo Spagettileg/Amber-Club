@@ -45,10 +45,10 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sign In</a>
+                    <a class="nav-link" data-toggle='modal' data-target='#SignInModal'>Sign In</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link" data-toggle='modal' data-target='#SignUpModal'>Register</a>
                 </li>
             </ul>
         </div>
@@ -428,11 +428,77 @@
                     <div class="pt-1 pb-2 col-12 text-center lower-footer">
                         <small>© Whiskey-Drop | <span id="developer-years"></span><br>  Website design | Paul Friel | Full Stack Developer</small>
                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Register Modal to join Whiskey-Drop mailing list -->
+    <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Sign up for Whiskey Drop!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Name">First Name</label>
+                            <input type="name" class="form-control" id="name" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Name">Surname</label>
+                            <input type="name" class="form-control" id="name" placeholder="Surname">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" id="Email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" class="form-control" id="Password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="PasswordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="PasswordRepeat" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn btn-read float-right">Register</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-</footer>
+    <!-- Sign In Modal to access Whiskey-Drop -->
+    <div class="modal fade" id="SignInModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Sign In to access Whiskey Drop</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" id="Email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" class="form-control" id="Password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="PasswordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="PasswordRepeat" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn btn-read float-right">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         filterSelection("all");

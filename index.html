@@ -45,10 +45,10 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sign In</a>
+                    <a class="nav-link" data-toggle='modal' data-target='#SignInModal'>Sign In</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link" data-toggle='modal' data-target='#SignUpModal'>Register</a>
                 </li>
             </ul>
         </div>
@@ -311,6 +311,14 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
+                            <label for="Name">First Name</label>
+                            <input type="name" class="form-control" id="name" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Name">Surname</label>
+                            <input type="name" class="form-control" id="name" placeholder="Surname">
+                        </div>
+                        <div class="form-group">
                             <label for="Email">Email address</label>
                             <input type="email" class="form-control" id="Email" placeholder="Email">
                             <p class="help-block">We'll never share your email address with anyone</p>
@@ -329,7 +337,34 @@
             </div>
         </div>
     </div>
-    
+    <!-- Sign In Modal to access Whiskey-Drop -->
+    <div class="modal fade" id="SignInModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Sign In to access Whiskey Drop</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" id="Email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" class="form-control" id="Password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="PasswordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="PasswordRepeat" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn btn-read float-right">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Feature one Modal (View)-->
     <div class="modal fade" id="ViewModal" tabindex="-1" role="dialog" aria-labelledby="myViewModalLabel">
         <div class="modal-dialog" role="document">
