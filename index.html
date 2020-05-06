@@ -284,11 +284,11 @@
                         <h6 class="pt-3 text-uppercase ">Site Links</h6>
                         <ul class="footer-text text-left ">
                             <li><a href="about.html">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Cookies</a></li>
-                            <li><a href="#">FAQS</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#ContactModal" data-toggle='modal'>Contact Us</a></li>
+                            <li><a href="#CookieModal" data-toggle='modal'>Cookies</a></li>
+                            <li><a href="#FaqModal" data-toggle='modal'>FAQS</a></li>
+                            <li><a href="#PrivacyModal" data-toggle='modal'>Privacy</a></li>
+                            <li><a href="#TermsModal" data-toggle='modal'>Terms & Conditions</a></li>
                         </ul>
                     </div>
                     <hr class="block-divider-short ">
@@ -305,7 +305,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Sign up for Whiskey Drop!</h4>
+                    <h4 class="modal-title" id="myModalLabel">Sign up for Whiskey-Drop!</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
@@ -342,7 +342,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Sign In to access Whiskey Drop</h4>
+                    <h4 class="modal-title" id="myModalLabel">Sign In to access Whiskey-Drop</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
@@ -536,6 +536,218 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-read" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Modal to message Whiskey-Drop -->
+    <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Name">First Name</label>
+                            <input type="name" class="form-control" id="name" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Name">Surname</label>
+                            <input type="name" class="form-control" id="name" placeholder="Surname">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" id="Email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="Subject">Subject</label>
+                            <input type="text" class="form-control" id="Subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="special">Detailed Comments:</label>
+                            <textarea class="form-control" rows="5" id="special" placeholder="Type here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-read float-right">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cookies advice from Whiskey-Drop -->
+    <div class="modal fade" id="CookieModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Cookies Information</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <h3>How cookies affect you...</h3>
+                        <p>"Cookies" are small pieces of information sent by a web server to a web browser, which enables the server to collect
+                        information from the browser. You can find out more about the way cookies work on http://www.cookiecentral.com. Re-Boot
+                        uses cookies for a number of purposes, for instance to enable us to simplify the logging on process for registered users,
+                        to help ensure the security and authenticity of registered users, to provide the mechanisms for online shopping and to
+                        enable traffic monitoring. </p>
+                        <hr>
+                        <p>Non-registered visitors of the site are sent anonymous cookies to keep track of their browsing patterns and build up
+                        a demographic profile. </p>
+                        <hr>
+                        <p>Whilst you do not need to allow your browser to accept cookies in order to browse much of our web site or to access
+                        many of our services, you must have cookies enabled if you wish to shop online or access any areas reserved for registered
+                        users. </p>
+                        <button type="button" class="btn btn-read float-right" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQS advice from Whiskey-Drop -->
+    <div class="modal fade" id="FaqModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">FAQ Information</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Frequently Asked Questions</h3>
+                        <hr>
+                    <h5>Is Whiskey-Drop free to join?</h5>
+                    <p>No, there is a joining fee payable of £25 to join Whiskey-Drop. All funds help the maintenance of our website and support 
+                    a minimal income to our expert writers through canvassing their deep knowledge on the wonderful products made available
+                    through Whiskey-Drop.</p>
+                    
+                    <h5>How does Whiskey-Drop work?</h5>
+                    <p>The worlds major whiskey distilleries are in regular contact with Whiskey-Drop to recommend their products for retail. This
+                    'commercial goodwill' allows Whiskey-Drop to sell discounted high quality products to our signed up members, together with
+                    upto 6 free samples per year. Registered members simply browse the stock, request a free sample of their choosing, if they're unable
+                    to decide on a particular purchase. Formal purchases are made directly through Whiskey-Drop. Members experiences can be captured
+                    via the various Whiskey-Drop social media links. There is a 42 day cooling off period if customers decide an unopened purchase 
+                    was made in error. Full refunds will be payable in the same period only.</p>
+                    
+                    <p>The general public can view the image, price and tasting notes of all whiskey products in stock.</p>
+                    
+                    <p>All users will need to register by uploading their personal details and then enter their login credentials.</p>
+                    
+                    <p>Whiskey-Drop products can be viewed by the detailed listing or the user can use the 'Search' facility to locate a
+                    specific whiskey offering.  All selected whiskies will then be captured into the shopping cart. Upon clicking
+                    the shopping cart icon (positioned at the top of the page), the registered user will proceed to a formal checkout
+                    process until they receive formal confirmation of a sale. </p>
+        
+                    <h5>What controls exist on whiskey quality?</h5>
+                    <p>All Whiskey-Drop products are sourced directly from major international drinks distilleries and are subject to the highest
+                    levels of scrutiny and quality control. </p>
+        
+                    <h5>Why dont I receive a refund for my unwanted purchase?</h5>
+                    <p>42 calendar days are given to all registered members to decide on a unwanted product return and refund payment to be processed
+                    within this period. It should be noted that 7 calendar days are required to process a payment refund. If the 42nd day expires, then
+                    Whiskey-Drop reserves the right to not proceed with a refund. The onus is on the registered member to act swiftly to request a
+                    refund, subject to this being required.</p>
+                    
+                    <h5>Who receives the subscription money?</h5>
+                    <p> Whiskey-Drop receives the money and funds are both reinvested into the maintenance of the website and covering costs of our product
+                    writing experts too. No profit is generated via the subscription fee transactions.</p>
+                    
+                    <h5>What countries does Whiskey-Drop operate in?</h5>
+                    <p>Whiskey-Drop is a global enterprise meaning we trade in 120 countries. If you're unsure you're country is included, please contact us
+                    to find out if we can trade with you.</p>
+                    
+                    <h5>Who is responsible for the postal / shipping costs of the whiskey?</h5>
+                    <p>Postal costs are bourne by the registered member, with the price determined by location of destination. Registered postal service will be used. </p>
+                    
+                    <h5>Who is able to provide reviews and feedback?</h5>
+                    <p>Only registered users can provide reviews / feeback on their 'Whiskey-Drop' experience.</p>
+        
+                    <hr>
+                        <button type="button" class="btn btn-read float-right" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Privacy advice from Whiskey-Drop -->
+    <div class="modal fade" id="PrivacyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Privacy Information</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Message from Whiskey-Drop</h3>
+                        <p>Whiskey-Drop is committed to protecting your privacy. This Privacy Policy explains our data processing practices and your
+                        options regarding the ways in which your personal data is used. If you have any requests concerning your personal
+                        information or any queries with regard to our processing please contact us.</p>
+                        <h5>Information collected</h5>
+                        <p>Whiskey-Drop collects the details provided by you on registration together with information Whiskey-Drop learn about you
+                        from your use of our service and your visits to our web site and potentially other sites accessible from them. Whiskey-Drop
+                        also collect information about the transactions you undertake including details of payment methods used. </p>
+                        
+                        <p>Whiskey-Drop may collect additional information in connection with your participation in any promotions or competitions
+                        offered by us and information you provide when giving us feedback or completing profile forms. Whiskey-Drop also monitor
+                        customer traffic patterns and site use which enables Whiskey-Drop to improve the service Whiskey-Drop provides.</p>
+                        
+                        <h5>Use of your information and your preferences</h5>
+                        <p>Whiskey-Drop will use your information to provide and personalise our service and to detect and prevent fraud. Whiskey-Drop
+                        will also use your contact details to communicate with you. Whiskey-Drop may use your information to send you offers and
+                        news about Whiskey-Drop and services or those of other carefully selected companies which Whiskey-Drop think may be of interest
+                        to you. Whiskey-Drop may contact you by post, email or telephone for these purposes. </p>
+                        
+                        <p>Please note that there may be instances where it may be necessary for Whiskey-Drop to communicate with you, in any
+                        event, for administrative or operational reasons relating to Whiskey-Drops' service.</p>
+                        
+                        <h5>Disclosures of your information</h5>
+                        <p>Your information may be passed to and used by Whiskey-Drop. Whiskey-Drop will never pass your personal information to
+                        anyone else, except where Whiskey-Drop are required or permitted to do so by law, for any successors in title to our
+                        business and suppliers that process information on our behalf both in the UK and abroad. Whiskey-Drop may also use and disclose
+                        information in aggregate (so that no individual customers are identified) for marketing and strategic development
+                        purposes.</p>
+                        <button type="button" class="btn btn-read float-right" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Terms & Conditions for trading with Whiskey-Drop -->
+    <div class="modal fade" id="TermsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Product Quality</h5>
+                        <p>All whiskies sold by Whiskey-Drop act upon the originating distillers promise for a genuine and enjoyable product.   </p>
+                        
+                        <p>In the rare occurence that a Whiskey-Drop member disputes the purchased product quality. where possible, a 'like for like' replacement and not seek betterment wiil
+                        be offered at no additional cost. No refunds or product exchanges apply to free samples. </p>
+                    <h5>Product Delivery</h5>
+                        <p>Once the registered member has identified a product to purchase, then from the date of confirmed sale, Whiskey-Drop
+                        will have upto 5 working days to send the purchased product to the registered members nominated safe delivery address by 
+                        registered post. </p>
+                        
+                        <p>Whiskey-Drop cannot accept any responsibility for the non-delivery of ordered products. Any product deemed to be lost in
+                        transit will be the responsibility of the nominates postal carrier company. </p>
+                    <h5>Refunds & Returns</h5>
+                        <p>'Re-Boot' are under no obligation to offer refund of the cost of replacing your ordered product should you become
+                        dissatisfied with the purchased product. </p>
+                        
+                        <p>In the event of you becoming disatisfied, Whiskey-Drop would be happy to receive formal feedback via the website
+                        , setting out the reasons. In return, Whiskey-Drop can then review the merits of your dissatisfaction. In the most severe cases, Whiskey-Drop reserves
+                        the right to cancel the membership of a registered member that has not fully complied with Whiskey-Drops' terms and conditions. </p>
+                        
+                        <p>Whiskey-Drop and all its registered members operates under an 'upmost good fath' policy where all products appearing
+                        on the website are genuine and are of a excellent quality. Mis-representation of a product appearing on the Whiskey-Drop
+                        website is completely unacceptable. </p>
+                        
+                        <p>42 calendar days are given to all registered members to decide on a unwanted product return and refund payment to be processed
+                        within this period. It should be noted that 7 calendar days are required to process a payment refund. If the 42nd day expires, then
+                        Whiskey-Drop reserves the right to not proceed with a refund. The onus is on the registered member to act swiftly to request a
+                        refund, subject to this being required.</p>
+                        
+                        <button type="button" class="btn btn-read float-right" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
