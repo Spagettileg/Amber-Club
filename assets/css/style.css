@@ -454,6 +454,7 @@ code copied into the CSS file*/
 /* Modals */
 
 .modal-header,
+.modal-body,
 .whiskey-words,
 .close {
     color: #FFFFFF;
