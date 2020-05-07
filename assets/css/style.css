@@ -613,6 +613,14 @@ code copied into the CSS file*/
         /* Tablet view in portrait mode */
         height: 100vh;
     }
+    .dot {
+        height: 1rem;
+        width: 1rem;
+    }
+    .empty-dot {
+        height: 1rem;
+        width: 1rem;
+    }
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
