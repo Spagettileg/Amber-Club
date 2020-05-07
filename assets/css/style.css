@@ -611,6 +611,11 @@ code copied into the CSS file*/
         height: 0.35rem;
         width: 0.35rem;
     }
+    .about-start,
+    .about-drink,
+    .about-bottles {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 667px) and (orientation: landscape) {
@@ -620,6 +625,14 @@ code copied into the CSS file*/
     }
     .jumbotron .lead {
         margin-bottom: 0;
+    }
+    .barrels {
+        height: 24rem;
+    }
+    .about-start,
+    .about-drink,
+    .about-bottles {
+        font-size: 2rem;
     }
 }
 
@@ -641,6 +654,9 @@ code copied into the CSS file*/
 @media (min-width: 1024px) and (orientation: landscape) {
     .callout-container {
         /* Tablet view in landscape mode */
+        height: 100vh;
+    }
+    .barrels {
         height: 100vh;
     }
 }
