@@ -585,6 +585,17 @@ code copied into the CSS file*/
         /* Mobile view in portrait mode */
         height: 110vh;
     }
+    .main-title {
+        font-size: 2.1rem;
+    }
+    .dot {
+        height: 0.45rem;
+        width: 0.45rem;
+    }
+    .empty-dot {
+        height: 0.45rem;
+        width: 0.45rem;
+    }
 }
 
 @media (min-width: 667px) and (orientation: landscape) {
