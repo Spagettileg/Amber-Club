@@ -519,6 +519,21 @@ code copied into the CSS file*/
 
 /* Monthly Favourites */
 
+.table {
+   margin-right: auto;
+   margin-left: auto;
+   width: 80%;
+}
+
+.table td a {
+    color: #F05F40;
+}
+
+.table td a:hover {
+    font-weight: 700;
+    text-decoration: none;
+}
+
 .dot {
   /* Dot is a scale of whiskey product preference that appears on index.html page */    
   height: 1.2rem;
@@ -589,12 +604,12 @@ code copied into the CSS file*/
         font-size: 2.1rem;
     }
     .dot {
-        height: 0.45rem;
-        width: 0.45rem;
+        height: 0.35rem;
+        width: 0.35rem;
     }
     .empty-dot {
-        height: 0.45rem;
-        width: 0.45rem;
+        height: 0.35rem;
+        width: 0.35rem;
     }
 }
 
