@@ -166,23 +166,23 @@ For tablet and desktop views, the navbar offers 6 functions on show. For mobile 
 
 ### index.html
 
-Navbar (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘about’and ‘gallery’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
+**Navbar** (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘about’and ‘gallery’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
 
 A full image of a full whiskey glass is on show from the header through to the first container ‘customer quotes’. Attractive narrative and a site register button are on show. Minimal colour palette used to help draw the users eye to the full glass of whiskey.    
 
-‘Announcement’ is central to the home page. Users are notified up front of a reward when signing up to Whiskey-Drop
+An **announcement** is central to the home page. Users are notified up front of a reward when signing up to Whiskey-Drop
 
-Customer quotes provides an image of the customer, occupation and a brief quote narrative
+**Customer quotes** provides an image of the customer, occupation and a brief quote narrative
 
-'Features' container includes 'Gallery', 'Shopping' and 'Connect'. There is a very social theme throug together to make user feel that are part of something special. Each feature is supported by a introduction narrative together with a button, when clicked, takes user to a modal window with image and further narrative    
+**Features** container includes 'Gallery', 'Shopping' and 'Connect'. There is a very social theme throug together to make user feel that are part of something special. Each feature is supported by a introduction narrative together with a button, when clicked, takes user to a modal window with image and further narrative    
 
-'Monthly Favourites' tbale is a top 5 list of Whiskey-Drop members favourite product. Each product has a name, origin and rating score. The product name, when clicked, takes the user to a modal window where a full product image and detailed description can be viewed
+**Monthly Favourites** table is a top 5 list of Whiskey-Drop members favourite product. Each product has a name, origin and rating score. The product name, when clicked, takes the user to a modal window where a full product image and detailed description can be viewed
 
-Footer (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
+**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Drop' business operating years, powered by Javascript, copyright and web designer information.    
 
 ### about.html
 
-Navbar (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘about’and ‘gallery’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
+**Navbar** (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘about’and ‘gallery’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
 
 A bootstrap parallax design provides the foundation of a story of what Whiskey-Drop is and where users benefit from registering as a member
 
@@ -190,9 +190,11 @@ Barrel images appear at top and bottom of the parallax range, with a full whiske
 
 Other containers are sandwiched between the above images to showcase Whiskey-Drops' access to global range of products and to introduce free sampling for undecided customers   
 
-Footer (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
+**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
 
 ### gallery.html
+
+**Navbar** (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘about’and ‘gallery’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
 
 Product filter allows the user to view all products, or, view by country of origin. This graphic filter appears under the navbar
 
@@ -217,7 +219,9 @@ User can hover over the product image to view tasting notes. There is sufficient
 2. Aroma
 3. Taste
 
-Important- The products on show are for illustration purposes only and have not been wired to a formal ordering and payments process. This upgrade is planned for a future release. 
+**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
+
+**Important** - *The products on show are for illustration purposes only and have not been wired to a formal ordering and payments process. This upgrade is planned for a future release.* 
 
 ## Tests
 A user [testing matrix](https://github.com/Spagettileg/Whiskey-Drop/blob/master/testing/user-testing-whiskey-dropvfinal.zip) has been produced in MS Excel, but saved as .pdf to visualize here on GitHub. It outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended.
