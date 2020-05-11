@@ -220,6 +220,8 @@ User can hover over the product image to view tasting notes. There is sufficient
 Important- The products on show are for illustration purposes only and have not been wired to a formal ordering and payments process. This upgrade is planned for a future release. 
 
 ## Tests
+A user [testing matrix](https://github.com/Spagettileg/Whiskey-Drop/blob/master/testing/user-testing-whiskey-dropvfinal.zip) has been produced in MS Excel, but saved as .pdf to visualize here on GitHub. It outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended.
+
 
 ### Compatibility
 
