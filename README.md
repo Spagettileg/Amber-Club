@@ -55,7 +55,31 @@ The user experience centres upon signing up to an incentive based web design and
 
 ### User & Business Objectives
 
+#### User
+- The user belongs to a community of whiskey enthusiasts
+- Great product offerings and guidance upon a broad range of products made available
+- Access to well known and lesser known products to help expand the users range
+- Understand the background to Whiskey-Drop via all published media types
+- Happy to browse products, without obligation to purchase
+
+#### Business
+- Promotion of latest products to generate customer demand 
+- Advanced notice of new product offerings to help leverage customer interest. Early product reservations is the business objective here 
+- Links provided for the user to understand Whiskey-Drops members favourite products 
+- Offering free product samples to build customer trust, goodwill and the impression that value for money is being created.  
+- Social media link access to further promote Whiskey-Drop and encourage member intra-communications
+
+#### Next Stage Generation
+- Increase product density through expanding scope of products, accessories, distillery tours, etc
+- Leverage footfall data to attract commercial online advertising, with resultaqnt revenues used to maintain and grow website
+- Affiliate with whiskey distilleries to encourage exclusivity on new products  
+- Explore new social media channels to promote 'Whiskey-Drop'
+
 ### Wireframes
+My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Whiskey-Drop' website responsiveness on mobile, tablet and desktop devices.
+
+•	[Whiskey-Drop](https://github.com/Spagettileg/music-promotion-pbf/blob/master/wireframe/music-promotions-pbf_final.zip)
+
 
 ### User Stories
 
