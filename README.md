@@ -38,6 +38,7 @@ The user experience centres upon signing up to an incentive based web design and
     * [Tools](#tools)
 
 3. [Features](#features)
+    * [Features Left To Implement](#features-left-to-implement) 
 
 4. [Tests](#tests)
     * [Compatibility](#compatibility)
@@ -222,6 +223,13 @@ User can hover over the product image to view tasting notes. There is sufficient
 **Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
 
 **Important** - *The products on show are for illustration purposes only and have not been wired to a formal ordering and payments process. This upgrade is planned for a future release.* 
+
+### Features left to implement
+-	Add registration and user authentication to protect website from accidental or malicious attack 
+-	Create a product ordering and payments process (inc shopping cart) to enable users to purchase products  
+    -	Link for product orders to a `postgreSQL` database with `Stripe` payment functionality
+-	Add a web hit counter to understand popularity of website
+-	Create a member feedback / blog function to help promote continuous improvement of UXD (User Experience Design) for user enjoyment and UCD (User Centred Design) to create great products 
 
 ## Tests
 A user [testing matrix](https://github.com/Spagettileg/Whiskey-Drop/blob/master/testing/user-testing-whiskey-dropvfinal.zip) has been produced in MS Excel, but saved as .pdf to visualize here on GitHub. It outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended.
