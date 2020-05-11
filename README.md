@@ -228,6 +228,15 @@ A user [testing matrix](https://github.com/Spagettileg/Whiskey-Drop/blob/master/
 
 
 ### Compatibility
+The following browsers were used in testing the Re-Boot application. Internet Explorer was out of scope for testing due to obsolete capability
+
+platform | version
+---------|--------
+Chrome   |81.0.4044.129
+Edge     |44.18362.449.0
+Firefox  |73.0
+Safari   |12.4.6
+Opera    |68.0.3618.63
 
 ### Test Observations
 
