@@ -82,16 +82,54 @@ My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com
 
 
 ### User Stories
+* Important updates on products and offerings to be made readily available
+* Customer quotes that set out their own personal experience of Whiskey-Drop is important to view  
+* An overview of the websites features such as a viewing gallery, guidance on shopping and ways to connect with Whiskey-Drop  
+* Monthly favourites as voted for by registered members
+* An understanding of Whiskey-Drops background and messages to get both new and existing customers excited 
+* Information on product image, product name, product origin, price and tasting notes are required
+* Ability to filter products by country will be helpful
+* Access to Whiskey-Drops social media sites will be helpful to understand news and views from fellow whiskey fans
+* Secure registration and user authentication process
+* Secure payments process with a trusted online payments vendor
+* Straightforward process to contact Whiskey-Drop
+* A clear FAQ page that helps support enjoyment of using Whiskey-Drop and save on sending unecessary message
+* Users privacy, extending to treatment of data being full respected by Whiskey-Drop
+* Full terms & conditions to be made available for all users
 
 ### CSS Framework
+Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices. 
 
 ### Colour Palette
+Colours used in this project were sourced from [Colour Hunt](https://colorhunt.co/). Essentially, the colours are seeking to capture key attributes of The Monkees through energy, intelligence, country rock and psychedelia
+
+Colour         | Hex Code
+---------------|----------
+Yellow         | #F78A00
+Orange         | #F05F40
+Charcoal Grey  | #343A40
+Pencil Grey    | #BFBFBF
+White          | #FFFFFF
 
 ### Typography
+[Roboto](https://fonts.google.com/) font wwas used throughout this project.
 
 ### Icon Graphics
+Font Awesome 5 icon graphics were used in conjunction with Bootstrap 4, primarily to support the features section, as viewed in `index.html` page 
+
+Page                   | Function                            | Font  
+-----------------------|------------------------------------ |-------
+index.html             | features                            | `fas fa-glass-whiskey`
 
 ### Navbar Design
+For tablet and desktop views, the navbar offers 6 functions on show. For mobile devices, all the same options collapse into a 'hamburger' design. 
+
+- Navbar Brand
+- Home
+- About
+- Gallery
+- Sign In
+- Register
 
 ## Technologies Applied
 
@@ -100,30 +138,48 @@ My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com
 
 •	[CSS](https://www.w3.org/Style/CSS/) used to style the HTML
 
+•   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) used mostly for DOM manipulation
+
 ### Libraries
 •	[Bootstrap](https://www.bootstrapcdn.com/) used to enable styling of front page and support aesthetic design
 
 •	[jQuery](https://jquery.com/) used The integrity and crossorigin attributes are used for Subresource Integrity (SRI) checking. This allows browsers to ensure that resources hosted on third-party servers have not been tampered with. 
 
 ### Tools
-•	[Git](https://git-scm.com/) used to support version control
+•	[AWS Cloud9](https://aws.amazon.com/cloud9/) a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
 
-•	[GitHub](https://github.com/) used as a safe area for storing project files
+•	[Balsamiq](https://balsamiq.com/) is a small graphical tool to sketch out user interfaces, for websites and web / desktop / mobile applications and used to visualise my project through mock-up design.
+
+•	[Git](https://git-scm.com/) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+•	[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+•	[Jigsaw - CSS validation](https://jigsaw.w3.org/css-validator/) this validator checks the markup validity of CSS style sheet and ensure coding convention is upheld
+
+•	[JS Hint](https://jshint.com/) a tool that helps to detect errors and potential problems in the javascript code
+
+•	[W3C - HTML validation](https://validator.w3.org/) this validator checks the markup validity of HTML web documents
 
 
 ## Features
 
-- Navigation Bar
+### index.html
 
-- Article Class Container - Highlight Sale now on
+Navbar (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘music’, ‘heyhey’ and ‘events & tickets’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
 
-- Jumbotron callout used to support key marketing message
+A full black and white image of the band is on show from the header through to the first container ‘headline news’. I was inspired by the design as a result of completing the bootstrap training. The thought of scrolling the image creates a sense of something next.   
 
-- Section Classes tailored to support Quotes, Features and Monthly Favourites
+‘Headline News’ is central to the home page. Users are notified up front of important information concerning the band. Summary news of 2021 world tour is supported by use of icons, sourced from bootstrap / font awesome5.
 
-- Blockquotes used to create distintive section headers
+Further news of a 2021 world tour appears on home page via a ‘bootstrap’ card design. The design has been further modified to include a clickable button to allow user to check availability of tickets via a navigation link through to ‘events & tickets’ page. All buttons are subject to .hover pseudo class that provides a status colour change to the user when their cursor is placed upon the selected button. Furthermore, the user can view the concert venue by clicking on the card image.
 
-- Glyphicon images used to support Features section
+Footer (repeated on all pages) includes trading links to tickets and bookings. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to the bands’ respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (yellow to custom corporate colour) and font colour change too. Site links allow the use to access music, heyhey and events & tickets pages. The lower footing allows for The Monkees performing years, powered by Javascript, copyright and web designer information.    
+
+### about.html
+
+### gallery.html
+
+
 
 - Bootstrap Javascript 'Modal' used to create table following click of sign up button
 
