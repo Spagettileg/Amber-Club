@@ -179,7 +179,7 @@ An **announcement** is central to the home page. Users are notified up front of 
 
 **Monthly Favourites** table is a top 5 list of Whiskey-Drop members favourite product. Each product has a name, origin and rating score. The product name, when clicked, takes the user to a modal window where a full product image and detailed description can be viewed
 
-**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Drop' business operating years, powered by Javascript, copyright and web designer information.    
+**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. **Trading** links to gallery and shopping. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. **Site** links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Drop' business operating years, powered by Javascript, copyright and web designer information.    
 
 ### about.html
 
@@ -191,7 +191,7 @@ Barrel images appear at top and bottom of the parallax range, with a full whiske
 
 Other containers are sandwiched between the above images to showcase Whiskey-Drops' access to global range of products and to introduce free sampling for undecided customers   
 
-**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
+**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. **Trading** links to gallery and shopping. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. **Site** links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
 
 ### gallery.html
 
@@ -205,7 +205,7 @@ Product filter allows the user to view all products, or, view by country of orig
     - USA
     - Japan
     - China
-    - Rest of the World (Random collection on show)
+    - Rest of the World (Australia, France & South Africa)
 
 All products are presented with a matching style in bootstrap grid design.
 
@@ -220,7 +220,7 @@ User can hover over the product image to view tasting notes. There is sufficient
 2. Aroma
 3. Taste
 
-**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
+**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. **Trading** links to gallery and shopping. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. **Site** links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
 
 **Important** - *The products on show are for illustration purposes only and have not been wired to a formal ordering and payments process. This upgrade is planned for a future release.* 
 
