@@ -95,13 +95,14 @@ My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com
 * Straightforward process to contact Whiskey-Drop
 * A clear FAQ page that helps support enjoyment of using Whiskey-Drop and save on sending unecessary message
 * Users privacy, extending to treatment of data being full respected by Whiskey-Drop
+* A clear message on cookie usage when the user interacts with Whiskey-Drop website
 * Full terms & conditions to be made available for all users
 
 ### CSS Framework
 Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices. 
 
 ### Colour Palette
-Colours used in this project were sourced from [Colour Hunt](https://colorhunt.co/). Essentially, the colours are seeking to capture key attributes of The Monkees through energy, intelligence, country rock and psychedelia
+Colours used in this project were sourced from [Colour Hunt](https://colorhunt.co/). Essentially, the colours are seeking to capture key attributes of whiskey through warmth, soft notes, citric, nutty, peppary & woody
 
 Colour         | Hex Code
 ---------------|----------
@@ -165,24 +166,58 @@ For tablet and desktop views, the navbar offers 6 functions on show. For mobile 
 
 ### index.html
 
-Navbar (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘music’, ‘heyhey’ and ‘events & tickets’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
+Navbar (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘about’and ‘gallery’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
 
-A full black and white image of the band is on show from the header through to the first container ‘headline news’. I was inspired by the design as a result of completing the bootstrap training. The thought of scrolling the image creates a sense of something next.   
+A full image of a full whiskey glass is on show from the header through to the first container ‘customer quotes’. Attractive narrative and a site register button are on show. Minimal colour palette used to help draw the users eye to the full glass of whiskey.    
 
-‘Headline News’ is central to the home page. Users are notified up front of important information concerning the band. Summary news of 2021 world tour is supported by use of icons, sourced from bootstrap / font awesome5.
+‘Announcement’ is central to the home page. Users are notified up front of a reward when signing up to Whiskey-Drop
 
-Further news of a 2021 world tour appears on home page via a ‘bootstrap’ card design. The design has been further modified to include a clickable button to allow user to check availability of tickets via a navigation link through to ‘events & tickets’ page. All buttons are subject to .hover pseudo class that provides a status colour change to the user when their cursor is placed upon the selected button. Furthermore, the user can view the concert venue by clicking on the card image.
+Customer quotes provides an image of the customer, occupation and a brief quote narrative
 
-Footer (repeated on all pages) includes trading links to tickets and bookings. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to the bands’ respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (yellow to custom corporate colour) and font colour change too. Site links allow the use to access music, heyhey and events & tickets pages. The lower footing allows for The Monkees performing years, powered by Javascript, copyright and web designer information.    
+'Features' container includes 'Gallery', 'Shopping' and 'Connect'. There is a very social theme throug together to make user feel that are part of something special. Each feature is supported by a introduction narrative together with a button, when clicked, takes user to a modal window with image and further narrative    
+
+'Monthly Favourites' tbale is a top 5 list of Whiskey-Drop members favourite product. Each product has a name, origin and rating score. The product name, when clicked, takes the user to a modal window where a full product image and detailed description can be viewed
+
+Footer (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
 
 ### about.html
 
+Navbar (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘about’and ‘gallery’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
+
+A bootstrap parallax design provides the foundation of a story of what Whiskey-Drop is and where users benefit from registering as a member
+
+Barrel images appear at top and bottom of the parallax range, with a full whiskey glass and large stock of whiskey bottles postioned in between
+
+Other containers are sandwiched between the above images to showcase Whiskey-Drops' access to global range of products and to introduce free sampling for undecided customers   
+
+Footer (repeated on all pages) includes please drink responsibility narrative and link to external website. Trading links to gallery and shopping. Social media links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. Site links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
+
 ### gallery.html
 
+Product filter allows the user to view all products, or, view by country of origin. This graphic filter appears under the navbar
 
+- Countries in spotlight, as follows:
+    - Ireland
+    - Scotland
+    - USA
+    - Japan
+    - China
+    - Rest of the World (Random collection on show)
 
-- Bootstrap Javascript 'Modal' used to create table following click of sign up button
+All products are presented with a matching style in bootstrap grid design.
 
+1. Product Image
+2. Product Name
+3. Price in GBP
+4. Country Origin
+
+User can hover over the product image to view tasting notes. There is sufficient opacity to ensure the user can see the product in the background. The tasting notes fall into 3 categories:
+
+1. Appearance
+2. Aroma
+3. Taste
+
+Important- The products on show are for illustration purposes only and have not been wired to a formal ordering and payments process. This upgrade is planned for a future release. 
 
 ## Tests
 
