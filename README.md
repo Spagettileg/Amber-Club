@@ -308,12 +308,20 @@ Further reading and troubleshooting on cloning a repository from [GitHub](https:
 
 ### Content
 
+- Scrolling parallax idea taken from [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp) with code being adapted by myself
+- Gallery image filtering code taken from [W3Schools](https://www.w3schools.com/howto/howto_js_portfolio_filter.asp), with the code modified to refer to product origin countries and colour chnage to fit within project palette
+
 ### Media
 
+- [Favicon image](https://www.onlinewebfonts.com/icon/483015)taken from onlinewebfonts 
 - [Barrel](https://hipwallpaper.com/barrel-backgrounds/) wallpaper image that provides the backdrop to `gallery.html` page
 - [Customer](https://pixabay.com/images/search/people/) images that support the customer quotes featuring in `index.html`page
 - [People connect images](https://www.thedigitaltransformationpeople.com/channels/customer-engagement/connecting-on-social/) to support club members interaction in `index.html` page
-- [Whiskey Wallpapers](https://wallpapercave.com/whiskey-wallpapers) featuring in about.html page
-- [Whiskey products](https://www.thewhiskyexchange.com/) sourced from The Whiskey Exchange and feature in gallery.html page 
+- [Whiskey Wallpapers](https://wallpapercave.com/whiskey-wallpapers) featuring in `about.html` page
+- [Whiskey products](https://www.thewhiskyexchange.com/) sourced from The Whiskey Exchange and feature in `gallery.html` page 
 
 ### Acknowledgements
+
+Thanks to Matt Rudge, Timmy O'Mahony & Brian O'Grady (all Code Institute) for their time, suggestions, and constructive feedback!
+
+Big thanks to my mentors [Theo Despoudis](https://www.linkedin.com/in/theofanis-despoudis-7bb30913/) & [Simen Daehlin](https://github.com/Eventyret) for their ongoing technical guidance.
