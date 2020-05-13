@@ -79,7 +79,7 @@ The user experience centres upon signing up to an incentive based web design and
 ### Wireframes
 My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Whiskey-Drop' website responsiveness on mobile, tablet and desktop devices.
 
-•	[Whiskey-Drop](https://github.com/Spagettileg/music-promotion-pbf/blob/master/wireframe/music-promotions-pbf_final.zip)
+•	[Whiskey-Drop](https://github.com/Spagettileg/Whiskey-Drop/blob/master/wireframe/whiskey-drop_final.zip)
 
 
 ### User Stories
