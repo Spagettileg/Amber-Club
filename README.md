@@ -252,6 +252,7 @@ The following media queries were added to improve the project responsiveness on 
 Media Query                  | Device  | Class                    | Comments
 -----------------------------|---------|--------------------------|-------------
 min-width 375px & portrait   | Mobile  | `.callout-container`     | `height: 110vh`
+min-width 375px & portrait   | Mobile  | `.barrels`               | `height: 100vh`
 min-width 375px & portrait   | Mobile  | `.main-title`            | `font-size: 2.1rem` 
 min-width 375px & portrait   | Mobile  | `.dot`                   | `height: 0.35rem`, `width: 0.35rem`
 min-width 375px & portrait   | Mobile  | `.empty-dot`             | `height: 0.35rem`, `width: 0.35rem`
