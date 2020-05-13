@@ -600,6 +600,9 @@ code copied into the CSS file*/
         /* Mobile view in portrait mode */
         height: 110vh;
     }
+    .barrels {
+        height: 100vh;
+    }
     .main-title {
         font-size: 2.1rem;
     }
