@@ -666,7 +666,7 @@ code copied into the CSS file*/
 
 @media (min-width: 700px) and (orientation: portrait) {
     .callout-container {
-        /* Tablet view in landscape mode */
+        /* Desktop view in landscape mode */
         height: 100vh;
     }
 }
