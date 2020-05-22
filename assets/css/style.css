@@ -380,7 +380,7 @@ code copied into the CSS file*/
 /* Buttons */
 
 .btn-register {
-    /*Button used for signing upto Whiskey-Drop club*/
+    /*Button used for signing upto Amber-Club*/
     background-color: #FFFFFF;
     /*White*/
     border: 0.1rem solid #F05F40;
@@ -449,8 +449,6 @@ code copied into the CSS file*/
     line-height: 2.8rem;
 }
 
-/* Images */
-
 /* Modals */
 
 .modal-header,
@@ -461,10 +459,12 @@ code copied into the CSS file*/
 }
 
 .close:hover {
+    /*Yellow*/
     color: #F7BA00;
 }
 
 .modal-content {
+    /*Charcoal Grey*/
     background-color: #343A40;
 }
 
