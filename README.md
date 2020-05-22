@@ -230,6 +230,7 @@ User can hover over the product image to view tasting notes. There is sufficient
     -	Link for product orders to a `postgreSQL` database with `Stripe` payment functionality
 -	Add a web hit counter to understand popularity of website
 -	Create a member feedback / blog function to help promote continuous improvement of UXD (User Experience Design) for user enjoyment and UCD (User Centred Design) to create great products 
+-   Product search function to be create to help user quickly find products of their choosing    
 
 ## Tests
 A user [testing matrix](https://github.com/Spagettileg/Whiskey-Drop/blob/master/testing/user-testing-whiskey-dropvfinal.zip) has been produced in MS Excel, but saved as .pdf to visualize here on GitHub. It outlines the various tests I made to ensure the site renders consistently across different platforms, and that each functionality behaves as intended.
