@@ -77,7 +77,7 @@ The user experience centres upon signing up to an incentive based web design and
 - Explore new social media channels to promote 'Amber-Club'
 
 ### Wireframes
-My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Whiskey-Drop' website responsiveness on mobile, tablet and desktop devices.
+My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Amber-Club' website responsiveness on mobile, tablet and desktop devices.
 
 •	[Amber-Club](https://github.com/Spagettileg/Whiskey-Drop/blob/master/wireframe/whiskey-drop_final.zip)
 
