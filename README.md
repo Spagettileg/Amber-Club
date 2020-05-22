@@ -1,9 +1,9 @@
-# bootstrap | whiskey-drop
+# Amber-Club
 
 ***
-[Direct link to GitHub Repo](https://github.com/Spagettileg/Whiskey-Drop)
+[Direct link to GitHub Repo](https://github.com/Spagettileg/Amber-Club)
 
-[Direct link to Live Project](https://spagettileg.github.io/Whiskey-Drop/) 
+[Direct link to Live Project](https://spagettileg.github.io/Amber-Club/) 
 
 ***
 
@@ -60,43 +60,43 @@ The user experience centres upon signing up to an incentive based web design and
 - The user belongs to a community of whiskey enthusiasts
 - Great product offerings and guidance upon a broad range of products made available
 - Access to well known and lesser known products to help expand the users range
-- Understand the background to Whiskey-Drop via all published media types
+- Understand the background to Amber-Club via all published media types
 - Happy to browse products, without obligation to purchase
 
 #### Business
 - Promotion of latest products to generate customer demand 
 - Advanced notice of new product offerings to help leverage customer interest. Early product reservations is the business objective here 
-- Links provided for the user to understand Whiskey-Drops members favourite products 
+- Links provided for the user to understand Amber-Clubs' members favourite products 
 - Offering free product samples to build customer trust, goodwill and the impression that value for money is being created.  
-- Social media link access to further promote Whiskey-Drop and encourage member intra-communications
+- Social media link access to further promote Amber-Club and encourage member intra-communications
 
 #### Next Stage Generation
 - Increase product density through expanding scope of products, accessories, distillery tours, etc
 - Leverage footfall data to attract commercial online advertising, with resultaqnt revenues used to maintain and grow website
 - Affiliate with whiskey distilleries to encourage exclusivity on new products  
-- Explore new social media channels to promote 'Whiskey-Drop'
+- Explore new social media channels to promote 'Amber-Club'
 
 ### Wireframes
 My wireframe mock-up design have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Whiskey-Drop' website responsiveness on mobile, tablet and desktop devices.
 
-•	[Whiskey-Drop](https://github.com/Spagettileg/Whiskey-Drop/blob/master/wireframe/whiskey-drop_final.zip)
+•	[Amber-Club](https://github.com/Spagettileg/Whiskey-Drop/blob/master/wireframe/whiskey-drop_final.zip)
 
 
 ### User Stories
 * Important updates on products and offerings to be made readily available
-* Customer quotes that set out their own personal experience of Whiskey-Drop is important to view  
-* An overview of the websites features such as a viewing gallery, guidance on shopping and ways to connect with Whiskey-Drop  
+* Customer quotes that set out their own personal experience of Amber-Club is important to view  
+* An overview of the websites features such as a viewing gallery, guidance on shopping and ways to connect with Amber-Club  
 * Monthly favourites as voted for by registered members
 * An understanding of Whiskey-Drops background and messages to get both new and existing customers excited 
 * Information on product image, product name, product origin, price and tasting notes are required
 * Ability to filter products by country will be helpful
-* Access to Whiskey-Drops social media sites will be helpful to understand news and views from fellow whiskey fans
+* Access to Amber-Clubs' social media sites will be helpful to understand news and views from fellow whiskey fans
 * Secure registration and user authentication process
 * Secure payments process with a trusted online payments vendor
-* Straightforward process to contact Whiskey-Drop
-* A clear FAQ page that helps support enjoyment of using Whiskey-Drop and save on sending unecessary message
-* Users privacy, extending to treatment of data being full respected by Whiskey-Drop
-* A clear message on cookie usage when the user interacts with Whiskey-Drop website
+* Straightforward process to contact Amber-Club
+* A clear FAQ page that helps support enjoyment of using Amber-Club and save on sending unecessary message
+* Users privacy, extending to treatment of data being full respected by Amber-Club
+* A clear message on cookie usage when the user interacts with Amber-Club website
 * Full terms & conditions to be made available for all users
 
 ### CSS Framework
@@ -171,27 +171,27 @@ For tablet and desktop views, the navbar offers 6 functions on show. For mobile 
 
 A full image of a full whiskey glass is on show from the header through to the first container ‘customer quotes’. Attractive narrative and a site register button are on show. Minimal colour palette used to help draw the users eye to the full glass of whiskey.    
 
-An **announcement** is central to the home page. Users are notified up front of a reward when signing up to Whiskey-Drop
+An **announcement** is central to the home page. Users are notified up front of a reward when signing up to Amber-Club
 
 **Customer quotes** provides an image of the customer, occupation and a brief quote narrative
 
 **Features** container includes 'Gallery', 'Shopping' and 'Connect'. There is a very social theme throug together to make user feel that are part of something special. Each feature is supported by a introduction narrative together with a button, when clicked, takes user to a modal window with image and further narrative    
 
-**Monthly Favourites** table is a top 5 list of Whiskey-Drop members favourite product. Each product has a name, origin and rating score. The product name, when clicked, takes the user to a modal window where a full product image and detailed description can be viewed
+**Monthly Favourites** table is a top 5 list of Amber-Club members favourite product. Each product has a name, origin and rating score. The product name, when clicked, takes the user to a modal window where a full product image and detailed description can be viewed
 
-**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. **Trading** links to gallery and shopping. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. **Site** links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Drop' business operating years, powered by Javascript, copyright and web designer information.    
+**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. **Trading** links to gallery and shopping. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Amber-Clubs' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. **Site** links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Amber-Club' business operating years, powered by Javascript, copyright and web designer information.    
 
 ### about.html
 
 **Navbar** (repeated on all pages) has been designed to include a clickable icon image that is synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘about’and ‘gallery’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
 
-A bootstrap parallax design provides the foundation of a story of what Whiskey-Drop is and where users benefit from registering as a member
+A bootstrap parallax design provides the foundation of a story of what Amber-Club is and where users benefit from registering as a member
 
 Barrel images appear at top and bottom of the parallax range, with a full whiskey glass and large stock of whiskey bottles postioned in between
 
-Other containers are sandwiched between the above images to showcase Whiskey-Drops' access to global range of products and to introduce free sampling for undecided customers   
+Other containers are sandwiched between the above images to showcase Amber-Clubs' access to global range of products and to introduce free sampling for undecided customers   
 
-**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. **Trading** links to gallery and shopping. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. **Site** links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
+**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. **Trading** links to gallery and shopping. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Amber-Clubs' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. **Site** links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Amber-Club' business operating years, powered by Javascript, copyright and web designer information.    
 
 ### gallery.html
 
@@ -220,7 +220,7 @@ User can hover over the product image to view tasting notes. There is sufficient
 2. Aroma
 3. Taste
 
-**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. **Trading** links to gallery and shopping. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Whiskey-Drops' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. **Site** links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Whiskey-Dropp' business operating years, powered by Javascript, copyright and web designer information.    
+**Footer** (repeated on all pages) includes please drink responsibility narrative and link to external website. **Trading** links to gallery and shopping. **Social media** links and fonts secured from bootstrap / font awesome5. The links are wired to Amber-Clubs' respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (pencil grey to yellow) and font colour change too. **Site** links allow the use to access about, contact us, cookies, faqs, privacy policy and terms & conditions. The lower footing allows for Amber-Club' business operating years, powered by Javascript, copyright and web designer information.    
 
 **Important** - *The products on show are for illustration purposes only and have not been wired to a formal ordering and payments process. This upgrade is planned for a future release.* 
 
@@ -278,10 +278,10 @@ min-width 700px & portrait   | Tablet  | `.callout-container`     | `height: 100
 ## Deployment
 This project was developed using the [AWS Cloud9 IDE](https://aws.amazon.com/cloud9/), committed to git and pushed to GitHub using the built in function within Cloud9.
 
-To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Spagettileg/Whiskey-Drop), the following steps were taken:
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/Spagettileg/Amber-Club), the following steps were taken:
 
 1. Log into GitHub
-2. From the list of repositories on the screen, select **Spagettileg/Whiskey-Drop**
+2. From the list of repositories on the screen, select **Spagettileg/Amber-Club**
 3. From the menu items near the top of the page, select **Settings**
 4. Scroll down to the **GitHub Pages** section
 5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
@@ -291,7 +291,7 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 ### How to run this project locally
 To clone this project from GitHub:
 
-1. Follow this link to the [Project GitHub repository](https://github.com/Spagettileg/Whiskey-Drop)
+1. Follow this link to the [Project GitHub repository](https://github.com/Spagettileg/Amber-Club)
 2. Under the repository name, click **"Clone or download"**
 3. In the **Clone with HTTPs section**, copy the clone URL for the repository
 4. In your local IDE open **Ubuntu Bash**
