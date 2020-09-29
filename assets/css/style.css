@@ -30,6 +30,13 @@ h5 {
     color: #F7BA00;
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* Colour Palette */
 
 /* Yellow - #F7BA00 */
@@ -38,11 +45,23 @@ h5 {
 /* Pencil Grey - #BFBFBF */
 /* White - #FFFFFF */
 
+/* Images */
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 /* Containers */
 
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
+}
+
+.amber-container {
+    position: relative;
+    text-align: center;
 }
 
 .callout-container {
