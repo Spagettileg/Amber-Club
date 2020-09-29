@@ -64,21 +64,6 @@ h5 {
     text-align: center;
 }
 
-.callout-container {
-    height: 100vh;
-    background: url(../img/whiskey-background1.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*required to manage the horixontal centering of the 
-    callout design*/
-    position: relative;
-}
-
 .all-quotes {
     /* Required to manage the centering of all quotes on all devices */
   display: flex;
@@ -623,15 +608,12 @@ code copied into the CSS file*/
 }
 
 @media (min-width: 375px) and (orientation: portrait) {
-    .callout-container {
-        /* Mobile view in portrait mode */
-        height: 110vh;
+    .home-image {
+        height: 55vh;
+        padding-bottom: 2rem;
     }
     .barrels {
         height: 100vh;
-    }
-    .main-title {
-        font-size: 2.1rem;
     }
     .dot {
         height: 0.35rem;
