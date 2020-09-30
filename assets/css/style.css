@@ -31,6 +31,7 @@ h5 {
 }
 
 .centered {
+    /*Homepage introduction is centered*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,6 +39,7 @@ h5 {
 }
 
 .left-centered {
+    /*All label narrative in about.html page is positioned left centre*/ 
     position: absolute;
     left: 1rem;
     top: 50%;
@@ -106,58 +108,6 @@ h5 {
 body, html {
   height: 100%;
 }
-
-.barrels {
-  /* The image used in about.html page */
-   background-image: url(../img/barrels.jpg);
-
-  /* Full height */
-  height: 37.5rem;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.glass {
-  /* The image used in about.html page */
-   background-image: url(../img/glass.jpg);
-
-  /* Full height */
-  height: 25rem;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.bottle {
-  /* The image used in about.html page */
-   background-image: url(../img/bottles.jpg);
-
-  /* Full height */
-  height: 28.125rem;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .about-start,
 .about-drink,
 .about-bottles {
