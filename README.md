@@ -252,9 +252,10 @@ The following media queries were added to improve the project responsiveness on 
 
 Media Query                  | Device  | Class                    | Comments
 -----------------------------|---------|--------------------------|-------------
-min-width 375px & portrait   | Mobile  | `.callout-container`     | `height: 110vh`
-min-width 375px & portrait   | Mobile  | `.barrels`               | `height: 100vh`
-min-width 375px & portrait   | Mobile  | `.main-title`            | `font-size: 2.1rem` 
+min-width 375px & portrait   | Mobile  | `.home-image`            | `height: 55vh`, `padding-bottom: 2rem`
+min-width 375px & portrait   | Mobile  | `.barrel-image`          | `height: 65vh`
+min-width 375px & portrait   | Mobile  | `.glass-title`           | `height: 65vh` 
+min-width 375px & portrait   | Mobile  | `.bottles-image`         | `height: 65vh`
 min-width 375px & portrait   | Mobile  | `.dot`                   | `height: 0.35rem`, `width: 0.35rem`
 min-width 375px & portrait   | Mobile  | `.empty-dot`             | `height: 0.35rem`, `width: 0.35rem`
 min-width 375px & portrait   | Mobile  | `.about-start`           | `font-size: 2rem`
@@ -262,19 +263,12 @@ min-width 375px & portrait   | Mobile  | `.about-drink`           | `font-size: 
 min-width 375px & portrait   | Mobile  | `.about-bottles`         | `font-size: 2rem`
 max-width 500px              | Mobile  | `.quote-container`       | `text-align: center`
 max-width 500px              | Mobile  | `.quote-container img`   | `margin: auto`, `float: none`, `display: block`
-min-width 667px & landscape  | Tablet  | `.callout-container`     | `height: 150vh` 
 min-width 667px & landscape  | Tablet  | `.jumbotron 'lead`       | `margin-bottom: 0`
-min-width 667px & landscape  | Tablet  | `.barrels`               | `height: 24rem`
 min-width 667px & landscape  | Tablet  | `.about-start`           | `font-size: 2rem`
 min-width 667px & landscape  | Tablet  | `.about-drink`           | `font-size: 2rem`
 min-width 667px & landscape  | Tablet  | `.about-bottles`         | `font-size: 2rem`
-min-width 768px & portrait   | Tablet  | `.callout-container`     | `height: 100vh`
 min-width 768px & portrait   | Tablet  | `.dot`                   | `height: 1rem`, `width: 1rem`
 min-width 768px & portrait   | Tablet  | `.empty-dot`             | `height: 1rem`, `width: 1rem`
-min-width 1024px & landscape | Tablet  | `.callout-container`     | `height: 100vh`
-min-width 1024px & landscape | Tablet  | `.barrels`               | `height: 100vh`
-min-width 700px & portrait   | Tablet  | `.callout-container`     | `height: 100vh`
-
 
 ## Deployment
 This project was developed using the [AWS Cloud9 IDE](https://aws.amazon.com/cloud9/), committed to git and pushed to GitHub using the built in function within Cloud9.
